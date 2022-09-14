@@ -61,12 +61,12 @@
 
         /* css footer */
         footer{
-	position: fixed;
+	position: relative;
 	bottom: 0;
 }
 
 @media (max-height:800px){
-	footer { position: static; }
+	footer { position: relative; }
 	header { padding-top:40px; }
 }
 
@@ -421,7 +421,7 @@
             <div class='jarak'>
               <!-- card 2 -->
               <div class="card" style="width: 18rem;">
-                <img src="aset/spotify.png" class="card-img-top" alt="logo smanju">
+                <img src="aset/spotify.png"  class="card-img-top" alt="logo smanju">
                 <div class="card-body">
                   <h5 class="card-title">Spotify</h5>
                   <p class="card-text">Kami mempunyai berbagai karya di spotify, penasaran? ayo dengarkan kami di spotify!</p>
@@ -433,7 +433,9 @@
             <div class='jarak'>
                 <!-- card 3 -->
                 <div class="card" style="width: 18rem;">
-                    <img src="aset/logo ig.png" class="card-img-top" alt="logo smanju">
+                    <div style=" justify-content: center; align-items: center; display: flex; padding-top: 2.5px;">
+                      <img src="aset/logo ig.png" style="Height: 75%; width: 75%;"  class="card-img-top" alt="logo smanju">
+                    </div>
                     <div class="card-body">
                       <h5 class="card-title">Instagram</h5>
                       <p class="card-text">Pantau informasi dari kami di Instagram</p>
