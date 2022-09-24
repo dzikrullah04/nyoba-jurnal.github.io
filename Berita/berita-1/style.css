@@ -1,0 +1,168 @@
+/*mozilla*/
+@-moz-document url-prefix() {
+    .classnya {width: 100px; height: 80px }
+}
+
+/* chrome*/
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .classnya {width: 100px; height: 80px}
+}
+
+/* ie>9 */
+@media screen and (min-width:0\0) {
+    .classnya {width: 100px; height: 80px}
+}
+
+
+/* ie8 */
+@media \0screen {
+    .classnya {width: 100px; height: 80px}
+}
+
+/**safari**/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, .classnya {
+     width: 100px; height: 80px
+    }
+}
+
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+        .bgNav {
+            background: rgb(248, 249, 250, .8);
+        }
+
+        .bgNav:hover {
+          background: rgb(248, 249, 250);
+
+        }
+
+        .logo-jurnal {
+            height: 50px;
+            width: 50px;
+        }
+
+        .kartu {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        
+        .jarak {
+            padding-inline: 35px;
+            padding-bottom: 7px;
+        }
+
+        .bg-content-2 {
+            background: rgb(248, 249, 250);
+            width: 95%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .logo-tentang-wrap {
+          display: flex;
+          width: 100%;
+          float: left;
+        }
+
+        .logo-tentang {
+        }
+        .tentang{
+            padding-left: 5px;
+        }
+
+        .tesss {
+            background: red;
+            width: 100%;
+        }
+
+        .tentang img {
+          float: left;
+        }
+
+        .tess {
+            background: green;
+        }
+
+        .content-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        /* carousel */
+        .carousel-item {
+            height: 32rem;
+            background: #111;
+            color: #eaeaea;
+            position: relative;
+          }
+    
+          .container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 50px;
+          }
+    
+          .overlay-image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-position: center;
+            background-size: cover;
+            opacity: .5;
+          }
+
+@media (max-width: 500px) {
+    .logo-tentang {
+        width: 100%;
+    }
+    .logo-tentang-wrap {
+        float: none;
+        justify-content: center;
+        align-items: center;
+        width: 100;
+    }
+
+}
+
+
+/* konten */
+
+.judul {
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.garis-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.garis {
+    background-color: rgb(119, 119, 119, .5);
+    
+    height: 3px;
+    width: 90%;
+}
+
+.isi-berita {
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 35px;
+    text-align: justify;
+}
+
