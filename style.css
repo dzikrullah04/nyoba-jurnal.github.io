@@ -3,29 +3,6 @@
     .classnya {width: 100px; height: 80px }
 }
 
-/* chrome*/
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-    .classnya {width: 100px; height: 80px}
-}
-
-/* ie>9 */
-@media screen and (min-width:0\0) {
-    .classnya {width: 100px; height: 80px}
-}
-
-
-/* ie8 */
-@media \0screen {
-    .classnya {width: 100px; height: 80px}
-}
-
-/**safari**/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* Safari 5+ ONLY */
-    ::i-block-chrome, .classnya {
-     width: 100px; height: 80px
-    }
-}
 
 
 
